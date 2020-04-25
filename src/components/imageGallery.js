@@ -3,25 +3,73 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
+import image08042020Thumbnail from '../images/08-04-2020-Thumbnail.jpg';
+import image08042020 from '../images/08-04-2020.jpg';
+import image09042020Thumbnail from '../images/09-04-2020-Thumbnail.jpg';
+import image09042020 from '../images/09-04-2020.jpg';
+import image10042020Thumbnail from '../images/10-04-2020-Thumbnail.jpg';
+import image10042020 from '../images/10-04-2020.jpg';
 import image14042020Thumbnail from '../images/14-04-2020-Thumbnail.jpg';
 import image14042020 from '../images/14-04-2020.jpg';
+import image15042020Thumbnail from '../images/15-04-2020-Thumbnail.jpg';
+import image15042020 from '../images/15-04-2020.jpg';
+import image16042020Thumbnail from '../images/16-04-2020-Thumbnail.jpg';
+import image16042020 from '../images/16-04-2020.jpg';
 import image17042020Thumbnail from '../images/17-04-2020-Thumbnail.jpg';
 import image17042020 from '../images/17-04-2020.jpg';
+import image20042020Thumbnail from '../images/20-04-2020-Thumbnail.jpg';
+import image20042020 from '../images/20-04-2020.jpg';
 import image21042020Thumbnail from '../images/21-04-2020-Thumbnail.jpg';
 import image21042020 from '../images/21-04-2020.jpg';
+import image22042020Thumbnail from '../images/22-04-2020-Thumbnail.jpg';
+import image22042020 from '../images/22-04-2020.jpg';
+import image23042020Thumbnail from '../images/23-04-2020-Thumbnail.jpg';
+import image23042020 from '../images/23-04-2020.jpg';
 
 const images = [
   {
+    original: image08042020,
+    thumbnail: image08042020Thumbnail,
+  },
+  {
+    original: image09042020,
+    thumbnail: image09042020Thumbnail,
+  },
+  {
+    original: image10042020,
+    thumbnail: image10042020Thumbnail,
+  },
+  {
     original: image14042020,
     thumbnail: image14042020Thumbnail,
+  },
+  {
+    original: image15042020,
+    thumbnail: image15042020Thumbnail,
+  },
+  {
+    original: image16042020,
+    thumbnail: image16042020Thumbnail,
   },
   {
     original: image17042020,
     thumbnail: image17042020Thumbnail,
   },
   {
+    original: image20042020,
+    thumbnail: image20042020Thumbnail,
+  },
+  {
     original: image21042020,
     thumbnail: image21042020Thumbnail,
+  },
+  {
+    original: image22042020,
+    thumbnail: image22042020Thumbnail,
+  },
+  {
+    original: image23042020,
+    thumbnail: image23042020Thumbnail,
   },
 ];
 
