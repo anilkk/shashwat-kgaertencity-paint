@@ -25,6 +25,8 @@ import image22042020Thumbnail from '../images/22-04-2020-Thumbnail.jpg';
 import image22042020 from '../images/22-04-2020.jpg';
 import image23042020Thumbnail from '../images/23-04-2020-Thumbnail.jpg';
 import image23042020 from '../images/23-04-2020.jpg';
+import image24042020Thumbnail from '../images/24-04-2020-Thumbnail.jpg';
+import image24042020 from '../images/24-04-2020.jpg';
 
 const images = [
   {
@@ -70,6 +72,10 @@ const images = [
   {
     original: image23042020,
     thumbnail: image23042020Thumbnail,
+  },
+  {
+    original: image24042020,
+    thumbnail: image24042020Thumbnail,
   },
 ];
 
