@@ -1,6 +1,5 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import image08042020Thumbnail from '../images/08-04-2020-Thumbnail.jpg';
@@ -102,20 +101,6 @@ const images = [
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-const MyImageGallery = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `);
-
-  return <ImageGallery items={images} />;
-};
+const MyImageGallery = () => <ImageGallery items={images} />;
 
 export default MyImageGallery;
