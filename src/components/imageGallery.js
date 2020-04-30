@@ -30,6 +30,10 @@ import image27042020Thumbnail from '../images/27-04-2020-Thumbnail.jpg';
 import image27042020 from '../images/27-04-2020.jpg';
 import image28042020Thumbnail from '../images/28-04-2020-Thumbnail.jpg';
 import image28042020 from '../images/28-04-2020.jpg';
+import image29042020Thumbnail from '../images/29-04-2020-Thumbnail.jpg';
+import image29042020 from '../images/29-04-2020.jpg';
+import image30042020Thumbnail from '../images/30-04-2020-Thumbnail.jpg';
+import image30042020 from '../images/30-04-2020.jpg';
 
 const images = [
   {
@@ -87,6 +91,14 @@ const images = [
   {
     original: image28042020,
     thumbnail: image28042020Thumbnail,
+  },
+  {
+    original: image29042020,
+    thumbnail: image29042020Thumbnail,
+  },
+  {
+    original: image30042020,
+    thumbnail: image30042020Thumbnail,
   },
 ];
 
